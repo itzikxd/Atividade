@@ -1,19 +1,6 @@
-    /*
-body {
-margin: 0;
-font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
-background: linear-gradient(180deg, var(--bg), var(--bg-soft));
-color: var(--fg);
-line-height: 1.6;
-}
-.wrapper {
-max-width: 980px;
-margin: 0 auto;
-padding: 24px;
-}
-/* ===== NAVBAR ===== */
+
 .nav {
-position: sticky; /* mantém o menu visível ao rolar */
+position: sticky;
 top: 0;
 backdrop-filter: blur(6px);
 background: rgba(17, 24, 39, 0.7);
@@ -42,15 +29,13 @@ border-radius: 8px;
 background: rgba(34, 211, 238, 0.1);
 outline: 1px solid rgba(34, 211, 238, 0.25);
 }
-/* ===== HERO / TÍTULOS ===== */
 .hero {
-padding-top: 40px; /* compensa o sticky */
+padding-top: 40px;
 }
 .h1 { font-size: 32px; margin: 16px 0 8px; }
 .p-muted { color: var(--muted); margin: 0 0 16px; }
 
 
-/* ===== CARDS ===== */
 .grid {
 display: grid;
 grid-template-columns: repeat(12, 1fr);
@@ -66,7 +51,6 @@ padding: 16px;
 .card h3 { margin-top: 0; }
 
 
-/* ===== FORM ===== */
 label { display: block; margin: 12px 0 6px; }
 input, textarea {
 width: 100%;
@@ -85,11 +69,9 @@ cursor: pointer; font-weight: 700;
 button:hover { filter: brightness(1.05); }
 
 
-/* ===== FOOTER ===== */
 footer { color: var(--muted); font-size: 14px; padding-top: 16px; }
 
 
-/* ===== RESPONSIVO ===== */
 @media (min-width: 700px) {
 .card.split {
 display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px;
