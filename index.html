@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sobre mim — Seu Nome</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfólio pessoal: sobre mim, formação, projetos e contato.">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="wrapper">
+            <div class="brand"><a href="index.html">Isaque Samuel</a></div>
+            <nav class="menu">
+                <a href="index.html" class="active">Sobre mim</a>
+                <a href="formacao.html">Formação</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="wrapper hero">
+        <h1 class="h1">Olá! Eu sou o <strong>Isaque Samuel </strong></h1>
+        <p class="p-muted">Sou um jovem de 20 anos de idade, atualmente curso a faculdade de ciência de dados e atuo
+            como
+            Analista de mercado em uma empresa de distribuição. Moro em Aparecida de Goiânia, Goiás e busco crescimento
+            pessoal e profissional.</p>
+
+
+        <section class="grid">
+            <article class="card split">
+                <div>
+                    <h3>Sobre mim</h3>
+                    <p>Comecei a estudar com 3 anos de idade e com 5 aprendi a ler e já sabia escrever, desde cedo me
+                        interessei por dados e números e decidi levar isso para minha vida profissional. Aos 16 anos
+                        comecei a trabalhar e me apaixonei por desenvolvimento e com 19 me tornei analista pleno no ramo
+                        de distribuição de medicamentos.</p>
+                    <ul>
+                        <li><strong>Hobbies:</strong> Games, música e futebol</li>
+                        <li><strong>Interesses:</strong> Análise de dados e desenvolvimento</li>
+                        <li><strong>Meta atual:</strong> Me tornar financeiramente independente e contribuir de alguma forma no ramo que atuo.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Resumo rápido</h3>
+                    <p><strong>Área:</strong> Análise de dados e Desenvolvimento</p>
+                    <p><strong>Foco:</strong> HTML, CSS e lógica com JS</p>
+                    <p><strong>Disponibilidade:</strong> Remoto e presencial</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="wrapper">
+        <p>© <span id="year"></span> Isaque Samuel - Portfólio</p>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
